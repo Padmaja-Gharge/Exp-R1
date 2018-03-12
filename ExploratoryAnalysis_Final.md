@@ -23,7 +23,7 @@ Analysis 2: Use histogram to see frequency disribution of Age
 
       ggplot(data = Titanic_Train, aes(Age)) + 
       geom_histogram(binwidth = 2, aes(fill = Survived), color="black") +
-      geom_text(stat="bin", aes(label = ..count.., size = 3))+
+      #geom_text(stat="bin", aes(label = ..count.., size = 3))+
       labs(title = "Age Histogram")+
       labs(x = "Age", y = "Count")
 
