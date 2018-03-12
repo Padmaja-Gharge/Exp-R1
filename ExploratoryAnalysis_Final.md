@@ -42,6 +42,7 @@ Analysis 3: Vizualising relation between Gender and Survival
       geom_bar(aes(fill = Survived), color="Black") 
 
 ![](ExploratoryAnalysis_Final_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+
 More percantage of female passengers survived as compared to male
 passenger
 
@@ -53,6 +54,8 @@ Analysis 4: Vizualising relation between travel class and Survival
 
 ![](ExploratoryAnalysis_Final_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
+Passengers travelling in class 1 and 2 had higher survival over class 3
+
 Analysis 5: Vizualising relation between Embarkment and Survival
 ----------------------------------------------------------------
 
@@ -60,6 +63,8 @@ Analysis 5: Vizualising relation between Embarkment and Survival
       geom_bar(aes(fill = Survived), color="Black")
 
 ![](ExploratoryAnalysis_Final_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+
+Passengers from Southampton had the least survival rate
 
 Analysis 6: Vizualising relation between gender and travel class
 ----------------------------------------------------------------
