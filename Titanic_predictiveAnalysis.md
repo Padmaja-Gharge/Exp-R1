@@ -5,10 +5,10 @@ have gender information also in the dataset it is better to calculate
 mean age for each gender and replace the respective mean ages in place
 of missing age.
 
-> library(dplyr)
+ library(dplyr)
 
-> Titanic\_Train&lt;-read.csv('train.csv')
-> Titanic\_Test&lt;-read.csv('test.csv')
+ Titanic\_Train&lt;-read.csv('train.csv')
+ Titanic\_Test&lt;-read.csv('test.csv')
 
 Mean age for men:
 
